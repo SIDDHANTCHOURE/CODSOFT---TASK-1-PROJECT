@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YS - Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Poppins:wght@400;500&family=Roboto:ital,wght@0,400;0,700;1,100&display=swap" rel="stylesheet">
+
+    <style>
+        *{
+            margin: 0;
+            padding:0;
+        }
+
+        body {
+            background-color: rgb(0, 0, 33);
+            color: white; 
+        } -->
+
+         body {
+            background-color:   rgb(1, 1, 21);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+
+        }
+
+        nav {
+            display:flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 85px;
+            background-color:rgb(12, 12, 58)
+        }
+
+        nav ul {
+             display: flex;
+             justify-content: center;
+        }
+
+        nav ul li {
+             list-style:  none;
+             margin: 0 23px; ;
+        }
+
+        nav ul li a{
+             text-decoration: none;
+             color: white;
+        }
+
+        nav ul li a:hover{ 
+             color: rgb(76, 76, 174);
+             font-size: 1.02rem;
+        }
+
+        main hr {
+            border: 0;
+            background: #9c97f1;
+            height: 1.2px;
+            margin: 40px 84px;
+        }
+ 
+        .left{
+           font-size: 1.6rem;
+        }
+
+       .firstsection {
+         display: flex; 
+         justify-content: space-around;
+         align-items: center;
+         margin: 130px 0;
+        }
+
+        .firstsection > div {
+          width: 30%;
+        }
+
+        .leftsection {
+          font-size:2.2rem ;
+        
+        }
+
+        .leftsection .btn {
+          padding: 12px;
+          background: #1e2167;
+          color: white;
+          border: 2px solid white;
+          font-size: 20px;
+          cursor: pointer ;
+        }
+
+        .rightsection { 
+          width: 34px;
+        }
+
+       .rightsection img {
+           width: 90%;
+  
+        }
+
+        .purple {
+               color: rgb(100, 22, 132);
+        }
+
+        .text-gray {
+            color: gray;
+        }
+
+        #element{
+            color: rgb(100, 22, 132);
+        }
+
+        .secondsection {
+            max-width: 80dvw;
+            margin: auto;
+            height: 80vh;
+        }
+        
+        .secondsection h1 {
+            font-size: 1.5rem;
+        }
+
+        .secondsection .box {
+            background: white;
+            width: 76vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex ;
+        }
+
+        .secondsection .vertical{
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 120px;
+        }
+
+        .image-top{
+            width: 23px;
+            position: relative;
+            top: -32px;
+            left: -9px;
+        }
+        
+        .vertical-title {
+            position: relative;
+            top: 75px;
+            width: 150px;
+            font-size: 10px;
+        }
+        
+        .vertical-desc{
+            position: relative;
+            top: 86px;
+            color: gray;
+            width: 150px;
+            font-size: 9px;
+        }
+
+        footer{
+            background-color: rgb(0, 22, 51) ;
+        }
+
+        .footer {
+            display: flex;
+            padding: 23px 122px;
+            justify-content: space-evenly;
+        }
+
+        .footer ul{
+            list-style: none;
+        }
+
+        .footer > div {
+            width: 190px;
+        }
+        
+        footer .footer-rights{
+             text-align: center;
+             color: gray;
+             padding: 12px 0 ;
+        }
+    
+     </style>
+</head>  
+<body>
+   <header>
+       <nav>
+        <div class="left">YS Portfolio</div>
+        <div class="right">
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/">About</a></li>
+                <li><a href="/">Services</a></li>
+                <li><a href="/">Project</a></li>
+                <li><a href="/">Contact Me</a></li> 
+             </ul>   
+          </div> 
+             </nav>
+   </header>
+   <main>
+       <section class="firstsection">
+        <div class="leftsection">
+         Hii, My name is <span class="purple">YS</span>
+
+
+         <div>and i am a passionate </div>
+         <span id="element"></span>
+            <div class="buttons"></div>
+               <button class="btn">Download Resume</button>
+               <button class="btn">Visit Github</button>
+        </div>
+        <div class="rightsection">
+            <img src="bg.png.png" alt="">  
+        </div>
+       </section>
+<hr>
+       <section class="secondsection">
+        <span class="text-gray">What I have done so far</span>
+         <h1>Work Experience </h1>
+         <div class="box">
+             <div class="vertical">
+                <img class="image-top" src="js.png" alt="">
+                <div class="vertical-text">
+                    JAVA SCRIPT Developer (2010-2012)
+                </div>
+             <div class="vertical-desc">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem iusto voluptates ipsum, suscipit tenetur doloribus, facere, minus quam repellendus cum officiis quidem nisi! Facere itaque culpa deserunt est quos! Labore.
+             </div>
+             </div>
+             <div class="vertical">
+                <img class="image-top" src="html.png" alt="">
+                <div class="vertical-text">
+                    HTML Developer (2012-2014)
+                </div>
+             <div class="vertical-desc">
+                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea exercitationem, fugiat deserunt, ab labore assumenda commodi quos voluptas beatae officiis sed quas, repudiandae eos dolorem? Atque tempora adipisci aliquam minus.
+             </div>
+             </div> 
+             <div class="vertical">
+                <img class="image-top" src="c++.png" alt="">
+                <div class="vertical-text">
+                    C++ Developer (2014-2016)
+                </div>
+             <div class="vertical-desc">
+                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque deserunt quisquam aspernatur inventore, dolore enim laborum sit nam vitae iste reiciendis repellendus, accusantium atque, nesciunt corrupti autem odit exercitationem sint!
+             </div>
+             </div>
+             <div class="vertical">
+                <img class="image-top" src="java.png" alt="">
+                <div class="vertical-text">
+                    JAVA Developer (2016-2018)
+                </div>
+             <div class="vertical-desc">
+                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque excepturi consectetur deleniti ex, doloribus harum suscipit reiciendis quas esse vero sed fugiat aspernatur sapiente, iusto officiis laboriosam ipsa! Corrupti, repudiandae.
+             </div>
+             </div> 
+             
+             
+         </div>   
+ 
+
+       </section>
+   </main>
+
+      <footer>
+        <div class="footer">
+            <div class="footer-first"> 
+                <h3>YS Developer Portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                   <li>Home</li>
+                   <li>About</li>
+                   <li>Services</li>
+                   <li>Contact</li>
+                </ul>             
+            </div>
+            <div class="footer-third"> 
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                 </ul>             
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                 </ul>             
+            </div>     
+        </div>
+        <div class="footer-rights">
+           Copyright &#169;www.YSProtfolio.com | All right reserved
+        </div>
+      </footer>
+   <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script> 
+   <script>
+    var typed = new Typed('#element', {
+      strings: ['Web Developer', 'Graphic Designer'],
+      typeSpeed: 50,
+    });
+  </script>
+</body>  
+</html>
